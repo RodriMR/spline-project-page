@@ -1,5 +1,11 @@
+import NavBar from "./components/NavBar/NavBar";
+import "./scss/main.scss";
 function App() {
-  return <h1>hello world</h1>;
+  return (
+    <>
+      <NavBar />
+    </>
+  );
 }
 
 export default App;
